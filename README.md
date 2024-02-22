@@ -63,7 +63,7 @@ make all
 ### Then to get the information I created a GET http route:
 
 ```
-http://localhost:{PORT}/api/getweather?lat={lat}&lon={lon}
+http://localhost:{PORT}/api/get-weather?lat={lat}&lon={lon}
 ```
 
 and that should return you the information of the weather conditions & temperature

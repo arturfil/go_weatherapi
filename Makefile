@@ -15,7 +15,10 @@ stop:
 	@echo "Stopping backend"
 	@-pkill -SIGTERM -f "./${BINARY}"
 	@echo "Stopped backend"
-	
+
+get_miami_info:
+	curl "http://localhost:${PORT}/api/get-weather?lat=25.761681&lon=-80.191788" | json_pp
+
 restart: stop build run
 
 all: build run
