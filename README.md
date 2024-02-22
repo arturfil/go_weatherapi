@@ -17,11 +17,11 @@ each type).*
 ### This will be an example json response
 ```
 {
-"feels_like": "It's Cold",
-"conditon": "clear sky",
-"temp": 55.02,
-"place_name": "US",
-"country": "Miami"
+    "feels_like": "It's Cold",
+    "conditon": "clear sky",
+    "temp": 55.02,
+    "place_name": "US",
+    "country": "Miami"
 }
 ```
 
