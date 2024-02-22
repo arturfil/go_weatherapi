@@ -14,7 +14,7 @@ and return the following data:
 etc), whether it’s hot, cold, or moderate outside (use your own discretion on what temperature equates to
 each type).*
 
-### This will be an example json response
+### This is an example json response
 ```
 {
     "feels_like": "It's Cold",
