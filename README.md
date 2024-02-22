@@ -33,19 +33,16 @@ lon
 appid
 ```
 
-### Where the `appid` is the `SECRET_KEY` variable in the .env file
+Where the `appid` is the **`SECRET_KEY`** variable in the .env file
 
 ### Other important variables that you can setup in your .env are:
 
 `PORT` 
-&
-`BINARY`
 
 .env file example
 ```
 SECRET_KEY=yoursecretkeyprovidedbyopenweathermap
 PORT=8080
-BINARY=weatherApiBinary # or which ever name you prefer
 ```
 
 Once you place *your* unique apikey, you can build and run the project
@@ -65,10 +62,11 @@ make all
 ```
 http://localhost:{PORT}/api/get-weather?lat={lat}&lon={lon}
 ```
+### You can test it with the command
+```
+make get_miami_info
+```
+This will show the information in the example response in the console 
 
 and that should return you the information of the weather conditions & temperature
-
-
-Although the binary can be also added in the Makefile, you can add your BINARY executable name in the .env too.
-
 
