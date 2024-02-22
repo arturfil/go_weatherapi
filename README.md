@@ -4,7 +4,7 @@
 
 In this project we are going to write a simple api that will call the weather api:
 
-```go
+```
 https://api.openweathermap.org/data/2.5/weather?lat=63.5888&lon=154.4931&appid=apiId
 ```
 
@@ -16,7 +16,7 @@ each type).*
 
 This api will take 3 inputs:
 
-```go
+```
 lat
 lon
 appid
@@ -28,8 +28,8 @@ once you place *your* unique apikey, the project should run as normal
 
 Then to get the information I created a GET http route:
 
-```go
-/api/getweather?lat={lat}&lon={lon}
+```
+http://localhost:{PORT}/api/getweather?lat={lat}&lon={lon}
 ```
 
 and that should return you the information of the weather conditions & temperature
@@ -51,4 +51,3 @@ alternatively you could also just run:
 ```
 make all
 ```
-# go_weatherapi
